@@ -103,9 +103,10 @@ public class PacientesView extends Div implements BeforeEnterObserver {
         binder = new BeanValidationBinder<>(Pacientes.class);
 
         // Bind fields. This is where you'd define e.g. validation rules
-        binder.forField(edad).withConverter(new StringToIntegerConverter("Only numbers are allowed")).bind("edad");
-        binder.forField(peso).withConverter(new StringToIntegerConverter("Only numbers are allowed")).bind("peso");
-        binder.forField(altura).withConverter(new StringToIntegerConverter("Only numbers are allowed")).bind("altura");
+        binder.forField(peso).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("telefono");        
+        binder.forField(edad).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("edad");
+        binder.forField(peso).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("peso");
+        binder.forField(altura).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("altura");
 
         binder.bindInstanceFields(this);
 
@@ -198,12 +199,10 @@ public class PacientesView extends Div implements BeforeEnterObserver {
         	);
         peso.setValue(" Lbs");
         altura = new TextField("Altura");
-        altura.addThemeVariants(
-        	    TextFieldVariant.LUMO_SMALL,
-        	    TextFieldVariant.LUMO_ALIGN_RIGHT,
-        	    TextFieldVariant.LUMO_HELPER_ABOVE_FIELD
-        	);
-        altura.setValue(" Cm");
+        Div alturaprefix = new Div();
+        alturaprefix.setText(" Cm");
+        //lempiraField.setPrefixComponent(lempiraPrefix);
+        //altura.setT(" Cm");
         formLayout.add(nombre, identidad, telefono, edad, sangre, peso, altura);
 
         editorDiv.add(formLayout);

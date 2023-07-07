@@ -1,5 +1,7 @@
 package hn.clinica.data.entity;
 
+import com.vaadin.flow.component.textfield.NumberField;
+
 import jakarta.persistence.Entity;
 
 @Entity
@@ -57,6 +59,5 @@ public class Pacientes extends AbstractEntity {
 	public void setAltura(String altura) {
 		this.altura = altura;
 	}
-
 	
 }
