@@ -14,7 +14,6 @@ import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.grid.GridVariant;
 import com.vaadin.flow.component.html.Div;
-import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.notification.Notification.Position;
 import com.vaadin.flow.component.notification.NotificationVariant;
@@ -71,6 +70,7 @@ public class PacientesView extends Div implements BeforeEnterObserver {
 
         // Create UI
         SplitLayout splitLayout = new SplitLayout();
+
         createGridLayout(splitLayout);
         createEditorLayout(splitLayout);
 
@@ -103,12 +103,11 @@ public class PacientesView extends Div implements BeforeEnterObserver {
         binder = new BeanValidationBinder<>(Pacientes.class);
 
         // Bind fields. This is where you'd define e.g. validation rules
-        binder.forField(telefono).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("telefono");   
+        binder.forField(peso).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("telefono");        
         binder.forField(edad).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("edad");
         binder.forField(peso).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("peso");
         binder.forField(altura).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("altura");
-        
-        
+
         binder.bindInstanceFields(this);
 
         cancel.addClickListener(e -> {
@@ -165,36 +164,45 @@ public class PacientesView extends Div implements BeforeEnterObserver {
         editorLayoutDiv.add(editorDiv);
 
 
+        
+     
+       
+        
+        
         FormLayout formLayout = new FormLayout();
         nombre = new TextField("Nombre");
         identidad = new TextField("Identidad");
         telefono = new TextField("Telefono");
-        telefono.setPrefixComponent(new Span("+504"));
+        telefono.setValue("+504 ");
         edad = new TextField("Edad");
-        edad.setSuffixComponent(new Span("Años"));
-        
+        edad.addThemeVariants(
+        	    TextFieldVariant.LUMO_SMALL,
+        	    TextFieldVariant.LUMO_ALIGN_RIGHT,
+        	    TextFieldVariant.LUMO_HELPER_ABOVE_FIELD
+        	);
+        edad.setValue(" Años");
         sangre = new ComboBox<String>("Sangre");
         sangre.setAllowCustomValue(true);
         sangre.setEnabled(false);
         sangre.addCustomValueSetListener(e -> {
             String customValue = e.getDetail();
-            
         // conexion con base de datos
             //    items.add(customValue);
         //    comboBox.setItems(items);
             sangre.setValue(customValue);
         });
-        
         peso = new TextField("Peso");
-        peso.setSuffixComponent(new Span("Lbs"));
-
-        
+        peso.addThemeVariants(
+        	    TextFieldVariant.LUMO_SMALL,
+        	    TextFieldVariant.LUMO_ALIGN_RIGHT,
+        	    TextFieldVariant.LUMO_HELPER_ABOVE_FIELD
+        	);
+        peso.setValue(" Lbs");
         altura = new TextField("Altura");
-        altura.setSuffixComponent(new Span("Cm"));
-
+        Div alturaprefix = new Div();
+        alturaprefix.setText(" Cm");
         //lempiraField.setPrefixComponent(lempiraPrefix);
         //altura.setT(" Cm");
-        
         formLayout.add(nombre, identidad, telefono, edad, sangre, peso, altura);
 
         editorDiv.add(formLayout);

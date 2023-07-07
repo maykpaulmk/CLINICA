@@ -1,0 +1,9 @@
+{
+  "lumoImports" : [ "typography", "color", "spacing", "badge", "utility" ],
+  "assets" : {
+    "@fontsource/bitter" : {
+      "*.css" : "@fontsource/bitter",
+      "files/*" : "@fontsource/bitter/files"
+    }
+  }
+}

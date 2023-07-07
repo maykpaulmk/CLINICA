@@ -1,0 +1,70 @@
+@import url('./main-layout.css');
+@import url('./views/pacientes-view.css');
+@import url('./views/citas-view.css');
+@import url('./views/medicamentos-view.css');
+@import url('./views/consulta-view.css');
+@import url('@fontsource/bitter/index.css');    html {
+      --lumo-success-color: hsl(238, 47%, 53%);
+      --lumo-success-color-50pct: hsla(238, 47%, 53%, 0.5);
+      --lumo-success-color-10pct: hsla(238, 47%, 53%, 0.1);
+      --lumo-primary-color: hsla(337, 82%, 13%, 0.7);
+      --lumo-primary-color-50pct: hsla(337, 82%, 13%, 0.5);
+      --lumo-primary-color-10pct: hsla(337, 82%, 13%, 0.1);
+      --lumo-error-color: hsl(117, 42%, 27%);
+      --lumo-error-color-50pct: hsla(117, 42%, 27%, 0.5);
+      --lumo-error-color-10pct: hsla(117, 42%, 27%, 0.1);
+      --lumo-font-size: 1rem;
+      --lumo-font-size-xxxl: 3rem;
+      --lumo-font-size-xxl: 2.25rem;
+      --lumo-font-size-xl: 1.75rem;
+      --lumo-font-size-l: 1.375rem;
+      --lumo-font-size-m: 1.125rem;
+      --lumo-font-size-s: 1rem;
+      --lumo-font-size-xs: 0.875rem;
+      --lumo-font-size-xxs: 0.8125rem;
+      --lumo-line-height-m: 1.8;
+      --lumo-line-height-s: 1.5;
+      --lumo-line-height-xs: 1.3;
+      --lumo-size-xl: 3rem;
+      --lumo-size-l: 2.5rem;
+      --lumo-size-m: 2rem;
+      --lumo-size-s: 1.75rem;
+      --lumo-size-xs: 1.5rem;
+      --lumo-space-xl: 1.875rem;
+      --lumo-space-l: 1.25rem;
+      --lumo-space-m: 0.625rem;
+      --lumo-space-s: 0.3125rem;
+      --lumo-space-xs: 0.1875rem;
+      --lumo-base-color: #e9ebf1;
+--lumo-font-family: Bitter;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-base-color: hsl(214, 63%, 15%);
+      --lumo-error-color: hsl(359, 100%, 35%);
+      --lumo-error-color-50pct: hsla(359, 100%, 35%, 0.5);
+      --lumo-error-color-10pct: hsla(359, 100%, 35%, 0.1);
+      --lumo-success-color: hsl(227, 55%, 44%);
+      --lumo-success-color-50pct: hsla(227, 55%, 44%, 0.5);
+      --lumo-success-color-10pct: hsla(227, 55%, 44%, 0.1);
+      --lumo-shade: hsl(235, 73%, 27%);
+      --lumo-shade-5pct: hsla(235, 73%, 27%, 0.05);
+      --lumo-shade-10pct: hsla(235, 73%, 27%, 0.1);
+      --lumo-shade-20pct: hsla(235, 73%, 27%, 0.2);
+      --lumo-shade-30pct: hsla(235, 73%, 27%, 0.3);
+      --lumo-shade-40pct: hsla(235, 73%, 27%, 0.4);
+      --lumo-shade-50pct: hsla(235, 73%, 27%, 0.5);
+      --lumo-shade-60pct: hsla(235, 73%, 27%, 0.6);
+      --lumo-shade-70pct: hsla(235, 73%, 27%, 0.7);
+      --lumo-shade-80pct: hsla(235, 73%, 27%, 0.8);
+      --lumo-shade-90pct: hsla(235, 73%, 27%, 0.9);
+      --lumo-body-text-color: hsla(214, 0%, 90%, 0.9);
+      --lumo-success-text-color: hsl(227, 55%, 44%);
+      --lumo-primary-color-50pct: hsla(214, 67%, 41%, 0.5);
+      --lumo-primary-color-10pct: hsla(214, 67%, 41%, 0.1);
+      --lumo-primary-color: hsl(214, 67%, 41%);
+      --lumo-primary-text-color: hsl(184, 38%, 50%);
+      --lumo-error-text-color: hsl(3, 77%, 45%);
+
+    }

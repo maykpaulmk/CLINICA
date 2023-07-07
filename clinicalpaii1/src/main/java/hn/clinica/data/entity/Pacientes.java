@@ -13,7 +13,7 @@ public class Pacientes extends AbstractEntity {
     private Integer edad;
     private String sangre;
     private Integer peso;
-    private Integer altura;
+    private String altura;
 
     public String getNombre() {
         return nombre;
@@ -40,26 +40,24 @@ public class Pacientes extends AbstractEntity {
     public void setSangre(String sangre) {
         this.sangre = sangre;
     }
-   
-	public Integer getAltura() {
-		return altura;
-	}
-	public void setAltura(Integer altura) {
-		this.altura = altura;
-	}
-	public Integer getPeso() {
-		return peso;
-	}
-	public void setPeso(Integer peso) {
-		this.peso = peso;
-	}
+    public Integer getPeso() {
+        return peso;
+    }
+    public void setPeso(Integer peso) {
+        this.peso = peso;
+    }
+    
 	public String getTelefono() {
 		return telefono;
 	}
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-	
-	
+	public String getAltura() {
+		return altura;
+	}
+	public void setAltura(String altura) {
+		this.altura = altura;
+	}
 	
 }
