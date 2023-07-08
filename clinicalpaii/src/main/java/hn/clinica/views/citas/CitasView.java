@@ -44,6 +44,7 @@ public class CitasView extends Div implements BeforeEnterObserver {
     private TextField paciente;
     private TextField direccion;
     private TextField telefono;
+    // prueba
 
     private final Button cancel = new Button("Cancel");
     private final Button save = new Button("Save");
