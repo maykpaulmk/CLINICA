@@ -148,6 +148,8 @@ public class CitasView extends Div implements BeforeEnterObserver {
         editorDiv.setClassName("editor");
         editorLayoutDiv.add(editorDiv);
 
+        
+        
         FormLayout formLayout = new FormLayout();
         idcita = new TextField("Idcita");
         fecha = new DateTimePicker("Fecha");

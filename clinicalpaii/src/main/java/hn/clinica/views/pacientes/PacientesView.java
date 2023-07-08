@@ -103,7 +103,7 @@ public class PacientesView extends Div implements BeforeEnterObserver {
         binder = new BeanValidationBinder<>(Pacientes.class);
 
         // Bind fields. This is where you'd define e.g. validation rules
-        binder.forField(telefono).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("telefono");   
+       // binder.forField(telefono).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("telefono");   
         binder.forField(edad).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("edad");
         binder.forField(peso).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("peso");
         binder.forField(altura).withConverter(new StringToIntegerConverter("Solo se premiten numeros")).bind("altura");
