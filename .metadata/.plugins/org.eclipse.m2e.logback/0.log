@@ -1,0 +1,229 @@
+2023-07-07 19:46:23,504 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-07 19:46:52,714 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hn.clinica:clinicalpaii:1.0-SNAPSHOT @ C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\pom.xml.
+2023-07-07 19:46:58,622 [Worker-4: Importing Maven projects] INFO  org.reflections.Reflections - Reflections took 2230 ms to scan 170 urls, producing 9189 keys and 47410 values
+2023-07-07 19:46:58,661 [Worker-4: Importing Maven projects] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
+2023-07-07 19:46:58,910 [Worker-4: Importing Maven projects] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 169 resources. Took 249 ms.
+2023-07-07 19:46:59,051 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clinicalpaii/src/main/java
+2023-07-07 19:46:59,052 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clinicalpaii/src/main/resources
+2023-07-07 19:46:59,055 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clinicalpaii/src/main/resources
+2023-07-07 19:46:59,056 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clinicalpaii/src/test/java
+2023-07-07 19:47:00,225 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2023-07-07 19:47:02,215 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:47:02,237 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:47:06,608 [Worker-0: Building] INFO  org.reflections.Reflections - Reflections took 1758 ms to scan 170 urls, producing 9202 keys and 47453 values
+2023-07-07 19:47:06,616 [Worker-0: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Copying frontend resources from jar files ...
+2023-07-07 19:47:06,863 [Worker-0: Building] INFO  c.v.f.s.f.TaskCopyFrontendFiles - Visited 169 resources. Took 246 ms.
+2023-07-07 19:47:06,869 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 19:49:29,612 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [607])
+2023-07-07 19:49:29,623 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-07-07 19:49:29,624 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-07-07 19:49:29,624 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-07-07 19:49:29,624 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-07-07 19:49:29,625 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-07-07 19:49:29,626 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-07-07 19:49:29,626 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-07-07 19:49:29,627 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-07-07 19:49:29,627 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-07-07 19:49:29,627 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-07-07 19:49:29,627 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-07-07 19:49:29,627 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-07-07 19:49:29,628 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-07-07 19:49:29,628 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-07-07 19:49:29,628 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-07-07 19:49:29,628 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-07-07 19:49:29,632 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-07-07 19:49:29,634 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-07-07 19:49:29,634 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-07-07 19:49:29,635 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-07-07 19:49:29,636 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-07-07 19:49:29,637 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-07-07 19:49:29,637 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-07-07 19:49:29,637 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-07-07 19:49:29,637 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-07-07 19:49:29,637 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-07-07 19:49:29,638 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-07-07 19:49:29,638 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-07-07 19:49:29,638 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-07-07 19:49:29,638 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-07-07 19:49:29,638 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-07-07 19:49:29,639 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-07-07 19:49:29,640 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-07-07 19:49:29,643 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-07-07 19:49:29,644 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-07-07 19:49:29,644 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-07-07 19:49:29,645 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-07-07 19:49:29,651 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-07-07 19:49:29,652 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-07-07 19:49:29,653 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [921])
+2023-07-07 19:49:29,655 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-07-07 19:49:29,655 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-07-07 19:49:29,656 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-07-07 19:49:29,656 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-07-07 19:49:29,658 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-07-07 19:49:29,658 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-07-07 19:49:29,660 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-07-07 19:49:29,660 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-07-07 19:49:29,662 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\DELL\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-07-07 19:49:29,673 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii":
+2023-07-07 19:49:29,687 [Worker-14: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 19:49:43,722 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:49:43,774 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:49:43,785 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 19:52:25,501 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:52:25,512 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:52:25,572 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 19:56:49,604 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:56:49,626 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:56:49,633 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 19:59:29,369 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:59:29,379 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:59:29,384 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 19:59:39,076 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 19:59:39,086 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 19:59:39,094 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:01:28,968 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:01:28,976 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:01:28,980 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:02:36,553 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:02:36,562 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:02:36,569 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:03:25,882 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:03:25,892 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:03:25,897 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:04:03,792 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:04:03,798 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:04:03,804 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:04:54,207 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:04:54,215 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:04:54,222 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:05:53,403 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:05:53,412 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:05:53,417 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:08:32,208 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:08:32,216 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:08:32,222 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:09:36,262 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:09:36,272 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:09:36,277 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:12:57,321 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:12:57,331 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:12:57,338 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 20:20:19,524 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 20:20:19,537 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 20:20:19,545 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 21:13:17,001 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 21:13:17,020 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 21:13:17,025 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 21:21:07,011 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 21:21:07,035 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 21:21:07,039 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 21:21:55,011 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 21:21:55,044 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 21:21:55,050 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 21:58:25,219 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 21:58:25,228 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 21:58:25,232 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 22:02:17,004 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 22:02:17,014 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2023-07-07 22:02:17,018 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:02:36,301 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 23:02:36,302 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-07 23:02:36,308 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:27:24,094 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:27:24,164 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:27:24,174 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:28:46,871 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:28:46,883 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:28:46,892 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:32:50,814 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:32:50,832 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:32:50,842 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:32:59,746 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:32:59,774 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:32:59,778 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:34:35,360 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:34:35,368 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:34:35,373 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:35:28,382 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:35:28,406 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:35:28,410 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:35:52,895 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:35:52,915 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:35:52,923 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:36:41,798 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:36:41,807 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:36:41,811 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:37:22,400 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:37:22,406 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:37:22,410 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:38:05,842 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:38:05,848 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:38:05,855 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:41:37,768 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:41:37,775 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:41:37,779 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:41:52,707 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:41:52,714 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:41:52,722 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:41:59,725 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:41:59,733 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:41:59,738 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:42:21,504 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:42:21,512 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:42:21,516 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:43:00,900 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:43:00,907 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:43:00,913 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:43:29,756 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:43:29,763 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:43:29,766 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:45:23,143 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:45:23,150 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:45:23,156 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:46:17,006 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:46:17,014 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:46:17,018 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:46:48,058 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:46:48,067 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:46:48,071 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:47:35,456 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:47:35,463 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:47:35,467 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-07 23:47:52,978 [Worker-72: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii":
+2023-07-07 23:47:52,978 [Worker-72: Launching Executing install in C__Users_DELL_Documents_Java-WorkSpace_CLINICA_clinicalpaii] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-07-07 23:55:53,468 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-07 23:55:53,478 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-07 23:55:53,482 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:09:21,118 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:09:21,128 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:09:21,133 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:09:55,059 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:09:55,068 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:09:55,072 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:10:15,991 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:10:16,020 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:10:16,024 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:14:48,314 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:14:48,322 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:14:48,327 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:15:55,530 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:15:55,538 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:15:55,542 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:18:12,844 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:18:12,850 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:18:12,854 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:18:45,149 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:18:45,156 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:18:45,161 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:21:31,265 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:21:31,272 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:21:31,276 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:25:45,123 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:25:45,131 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:25:45,135 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:32:37,223 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:32:37,231 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:32:37,234 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
+2023-07-08 00:34:44,010 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-08 00:34:44,016 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-08 00:34:44,021 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Documents\Java-WorkSpace\CLINICA\clinicalpaii\src\test\resources
