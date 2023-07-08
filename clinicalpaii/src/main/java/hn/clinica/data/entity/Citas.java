@@ -3,12 +3,14 @@ package hn.clinica.data.entity;
 import jakarta.persistence.Entity;
 import java.time.LocalDateTime;
 
+import com.vaadin.flow.component.listbox.ListBox;
+
 @Entity
 public class Citas extends AbstractEntity {
 
     private Integer idcita;
     private LocalDateTime fecha;
-    private String paciente;
+    private  ListBox<String> paciente;
     private String direccion;
     private String telefono;
 
@@ -24,12 +26,7 @@ public class Citas extends AbstractEntity {
     public void setFecha(LocalDateTime fecha) {
         this.fecha = fecha;
     }
-    public String getPaciente() {
-        return paciente;
-    }
-    public void setPaciente(String paciente) {
-        this.paciente = paciente;
-    }
+    
     public String getDireccion() {
         return direccion;
     }
@@ -42,5 +39,11 @@ public class Citas extends AbstractEntity {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+	public ListBox<String> getPaciente() {
+		return paciente;
+	}
+	public void setPaciente(ListBox<String> paciente) {
+		this.paciente = paciente;
+	}
 
 }
