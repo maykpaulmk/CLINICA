@@ -20,10 +20,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-import com.vaadin.flow.spring.data.VaadinSpringDataHelpers;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 import hn.clinica.data.entity.SamplePerson;
-import hn.clinica.data.service.SamplePersonService;
 import hn.clinica.views.MainLayout;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
@@ -32,7 +30,6 @@ import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 
 @PageTitle("Medicamentos")
@@ -43,10 +40,8 @@ public class MedicamentosView extends Div {
     private Grid<SamplePerson> grid;
 
     private Filters filters;
-    private final SamplePersonService samplePersonService;
 
-    public MedicamentosView(SamplePersonService SamplePersonService) {
-        this.samplePersonService = SamplePersonService;
+    public MedicamentosView() {
         setSizeFull();
         addClassNames("medicamentos-view");
 
@@ -232,9 +227,12 @@ public class MedicamentosView extends Div {
         grid.addColumn("occupation").setAutoWidth(true);
         grid.addColumn("role").setAutoWidth(true);
 
-        grid.setItems(query -> samplePersonService.list(
+        
+        /*grid.setItems(query -> samplePersonService.list(
                 PageRequest.of(query.getPage(), query.getPageSize(), VaadinSpringDataHelpers.toSpringDataSort(query)),
-                filters).stream());
+                filters).stream());*/
+        
+        
         grid.addThemeVariants(GridVariant.LUMO_NO_BORDER);
         grid.addClassNames(LumoUtility.Border.TOP, LumoUtility.BorderColor.CONTRAST_10);
 

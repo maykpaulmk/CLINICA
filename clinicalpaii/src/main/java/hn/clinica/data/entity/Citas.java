@@ -1,9 +1,7 @@
 package hn.clinica.data.entity;
 
-import jakarta.persistence.Entity;
 import java.time.LocalDateTime;
 
-@Entity
 public class Citas extends AbstractEntity {
 
     private Integer idcita;
