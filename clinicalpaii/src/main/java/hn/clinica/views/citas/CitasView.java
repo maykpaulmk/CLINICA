@@ -14,19 +14,14 @@ import com.vaadin.flow.component.notification.NotificationVariant;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.splitlayout.SplitLayout;
 import com.vaadin.flow.component.textfield.TextField;
-import com.vaadin.flow.data.binder.BeanValidationBinder;
-import com.vaadin.flow.data.binder.ValidationException;
-import com.vaadin.flow.data.converter.StringToIntegerConverter;
 import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.BeforeEnterObserver;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-import com.vaadin.flow.spring.data.VaadinSpringDataHelpers;
 import hn.clinica.data.entity.Citas;
 import hn.clinica.views.MainLayout;
 import java.time.Duration;
 import java.util.Optional;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
 @PageTitle("Citas")
@@ -45,8 +40,8 @@ public class CitasView extends Div implements BeforeEnterObserver {
     private TextField telefono;
     // prueba
 
-    private final Button cancel = new Button("Cancel");
-    private final Button save = new Button("Save");
+    private final Button cancel = new Button("Cancelar");
+    private final Button save = new Button("Guardar");
     private Citas citas;
 
     public CitasView() {
@@ -111,7 +106,7 @@ public class CitasView extends Div implements BeforeEnterObserver {
 
     @Override
     public void beforeEnter(BeforeEnterEvent event) {
-        Optional<Long> citasId = event.getRouteParameters().get(CITAS_ID).map(Long::parseLong);
+      /*  Optional<Long> citasId = event.getRouteParameters().get(CITAS_ID).map(Long::parseLong);
         if (citasId.isPresent()) {
             } else {
                 Notification.show(String.format("The requested citas was not found, ID = %s", citasId.get()), 3000,
@@ -120,7 +115,8 @@ public class CitasView extends Div implements BeforeEnterObserver {
                 // refresh grid
                 refreshGrid();
                 event.forwardTo(CitasView.class);
-            }
+            }*/
+    	
         }
     
 
