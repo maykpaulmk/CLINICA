@@ -43,6 +43,7 @@ public class CitasView extends Div implements BeforeEnterObserver {
     private TextField paciente;
     private TextField direccion;
     private TextField telefono;
+    // prueba
 
     private final Button cancel = new Button("Cancel");
     private final Button save = new Button("Save");
@@ -131,6 +132,8 @@ public class CitasView extends Div implements BeforeEnterObserver {
         editorDiv.setClassName("editor");
         editorLayoutDiv.add(editorDiv);
 
+        
+        
         FormLayout formLayout = new FormLayout();
         idcita = new TextField("Idcita");
         fecha = new DateTimePicker("Fecha");
