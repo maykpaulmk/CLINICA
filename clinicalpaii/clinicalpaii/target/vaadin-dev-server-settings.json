@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/src/main/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/DELL/Documents/Java-WorkSpace/CLINICA/clinicalpaii/frontend/generated/jar-resources",
+  "themeName": "clinicalpaii",
+  "clientServiceWorkerSource": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

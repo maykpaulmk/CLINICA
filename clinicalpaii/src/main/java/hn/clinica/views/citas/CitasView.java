@@ -14,20 +14,14 @@ import com.vaadin.flow.component.notification.NotificationVariant;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.splitlayout.SplitLayout;
 import com.vaadin.flow.component.textfield.TextField;
-import com.vaadin.flow.data.binder.BeanValidationBinder;
-import com.vaadin.flow.data.binder.ValidationException;
-import com.vaadin.flow.data.converter.StringToIntegerConverter;
 import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.BeforeEnterObserver;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
-import com.vaadin.flow.spring.data.VaadinSpringDataHelpers;
 import hn.clinica.data.entity.Citas;
-import hn.clinica.data.service.CitasService;
 import hn.clinica.views.MainLayout;
 import java.time.Duration;
 import java.util.Optional;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
 @PageTitle("Citas")
@@ -46,17 +40,11 @@ public class CitasView extends Div implements BeforeEnterObserver {
     private TextField telefono;
     // prueba
 
-    private final Button cancel = new Button("Cancel");
-    private final Button save = new Button("Save");
-
-    private final BeanValidationBinder<Citas> binder;
-
+    private final Button cancel = new Button("Cancelar");
+    private final Button save = new Button("Guardar");
     private Citas citas;
 
-    private final CitasService citasService;
-
-    public CitasView(CitasService citasService) {
-        this.citasService = citasService;
+    public CitasView() {
         addClassNames("citas-view");
 
         // Create UI
@@ -73,9 +61,11 @@ public class CitasView extends Div implements BeforeEnterObserver {
         grid.addColumn("paciente").setAutoWidth(true);
         grid.addColumn("direccion").setAutoWidth(true);
         grid.addColumn("telefono").setAutoWidth(true);
-        grid.setItems(query -> citasService.list(
+        
+       /* grid.setItems(query -> citasService.list(
                 PageRequest.of(query.getPage(), query.getPageSize(), VaadinSpringDataHelpers.toSpringDataSort(query)))
-                .stream());
+                .stream());*/
+        
         grid.addThemeVariants(GridVariant.LUMO_NO_BORDER);
 
         // when a row is selected or deselected, populate form
@@ -89,13 +79,8 @@ public class CitasView extends Div implements BeforeEnterObserver {
         });
 
         // Configure Form
-        binder = new BeanValidationBinder<>(Citas.class);
 
         // Bind fields. This is where you'd define e.g. validation rules
-        binder.forField(idcita).withConverter(new StringToIntegerConverter("Only numbers are allowed")).bind("idcita");
-
-        binder.bindInstanceFields(this);
-
         cancel.addClickListener(e -> {
             clearForm();
             refreshGrid();
@@ -106,8 +91,6 @@ public class CitasView extends Div implements BeforeEnterObserver {
                 if (this.citas == null) {
                     this.citas = new Citas();
                 }
-                binder.writeBean(this.citas);
-                citasService.update(this.citas);
                 clearForm();
                 refreshGrid();
                 Notification.show("Data updated");
@@ -117,19 +100,14 @@ public class CitasView extends Div implements BeforeEnterObserver {
                         "Error updating the data. Somebody else has updated the record while you were making changes.");
                 n.setPosition(Position.MIDDLE);
                 n.addThemeVariants(NotificationVariant.LUMO_ERROR);
-            } catch (ValidationException validationException) {
-                Notification.show("Failed to update the data. Check again that all values are valid");
-            }
+            } 
         });
     }
 
     @Override
     public void beforeEnter(BeforeEnterEvent event) {
-        Optional<Long> citasId = event.getRouteParameters().get(CITAS_ID).map(Long::parseLong);
+      /*  Optional<Long> citasId = event.getRouteParameters().get(CITAS_ID).map(Long::parseLong);
         if (citasId.isPresent()) {
-            Optional<Citas> citasFromBackend = citasService.get(citasId.get());
-            if (citasFromBackend.isPresent()) {
-                populateForm(citasFromBackend.get());
             } else {
                 Notification.show(String.format("The requested citas was not found, ID = %s", citasId.get()), 3000,
                         Notification.Position.BOTTOM_START);
@@ -137,9 +115,10 @@ public class CitasView extends Div implements BeforeEnterObserver {
                 // refresh grid
                 refreshGrid();
                 event.forwardTo(CitasView.class);
-            }
+            }*/
+    	
         }
-    }
+    
 
     private void createEditorLayout(SplitLayout splitLayout) {
         Div editorLayoutDiv = new Div();
@@ -193,7 +172,6 @@ public class CitasView extends Div implements BeforeEnterObserver {
 
     private void populateForm(Citas value) {
         this.citas = value;
-        binder.readBean(this.citas);
 
     }
 }

@@ -1,0 +1,16 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii",
+  "node.version": "v18.16.1",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\src\\main\\java",
+  "javaResourceFolder": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\src\\main\\resources",
+  "connect.applicationProperties": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\DELL\\Documents\\Java-WorkSpace\\CLINICA\\clinicalpaii\\frontend\\generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}
